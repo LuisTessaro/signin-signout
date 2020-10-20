@@ -25,6 +25,10 @@ run
 - yarn dev (npx's nodemon)
 - yarn start (simply runs app with node)
 
+---
+
+## Docs
+
 ### Creating user
 
 - POST: /api/user/

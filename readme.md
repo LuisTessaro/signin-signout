@@ -1,5 +1,30 @@
 # Signin Singup
 
+## running the project
+
+#### Required Env vars: 
+
+
+- MONGO_URI= MongoDb of you choosing
+
+- SECRET= JWT sign secret
+
+#### Optional vars:
+
+- PORT= Any available port (can be ommited and server will run on either startup arg or 3000 fallback)
+---
+
+### install and run:
+
+- Clone repo
+
+install
+- yarn
+
+run
+- yarn dev (npx's nodemon)
+- yarn start (simply runs app with node)
+
 ### Creating user
 
 - POST: /api/user/
